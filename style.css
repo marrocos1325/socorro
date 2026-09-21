@@ -1,63 +1,63 @@
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
 table {
     border-collapse: collapse;
     width: 100%;
-    border-radius: 5px;
+    border: 1px solid #fff;
+    width: 500px;
+    margin-left: 800px;
+    background-color: #bdaa94;
+    
 }
-thead tr,td, th{
-    text-align: left;
-    border: 2px solid #000;
-    background-color: #eccea9;
-    font-size: 20px; 
+thead {
+    border: 1px solid #fff;
+    background-color: #8e7a64;
 }
-tbody tr, td{
-    text-align: left;
-    border: 2px solid #000;
-    padding: 5px;
-    background-color: #eccea9 ;
-}
-img{
-    padding: 5px;
-    height:100px;
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffe4c4;
-}
-th{
-    background-color: #eccea9;
-    font-size: 30px;
-}
-footer{
-    background-color: #d4b287;
-    padding: 15px;
-    font-size: 8px;
-}
-#sein {
-    text-align: center;
-    background-color: #eccea9;
+tbody{
+    border: 1px solid #fff;
 }
 header {
-    background-color: #d4b287;
-    padding: 15px;
+    background-color: #8e7a64;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #fff;
 }
-button{
-    background-color: #d4b287;
-    border: 2px solid #000;
-    margin-left: 1000px;
-    padding: 25px;
-    cursor: pointer;
-    transition: 0.03s;
-    border-radius: 10px;
+footer {
+    background-color: #8e7a64;
+    padding: 10px;
+    font-size: 8px;
+    border: 1px solid #fff;
 }
-button:hover {
-    background-color: #b19571;
-}
-input {
-    cursor: pointer;
-    transition: 0.03s;
+input{
     height: 20px;
-    width: 20px;
+    border: 1px solid #fff;
+    transition: 0.03;
+    cursor: pointer;
+
 }
-input:hover{
-    background-color: #c7c3c3;
+button {
+    background-color: #bdaa94;
+    transition: 0.03;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 5px ;
+    margin-left: 860px;
+    margin-top: 10px;
+    padding: 10px 40px;
+}
+button:hover{
+    background-color: #8e7a64;
+}
+#nobru {
+    margin-left: 860px;
+    margin-top: 10px;   
+
+}
+td{
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 8px;
 }
